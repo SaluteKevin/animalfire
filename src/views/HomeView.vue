@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="pet in pets" :key="pet.id" class="">
-      <div class="doomtext bgname rounded-top">
+      <div class="doomtext bgname rounded p-2gitt">
         type: {{pet.name}}
       </div>
       <div>
